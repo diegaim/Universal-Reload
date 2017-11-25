@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.diegaim.universalreloadapp.Proses_transaksi" >
+
+    <item
+        android:id="@+id/men_menu_utama"
+        android:orderInCategory="100"
+        android:title="Menu Utama"
+        android:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/men_catatan_transaksi"
+        android:orderInCategory="100"
+        android:title="Catatan Transaksi"
+        android:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/men_pengaturan"
+        android:orderInCategory="100"
+        android:title="Pengaturan"
+        android:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/men_bantuan"
+        android:orderInCategory="100"
+        android:title="Bantuan"
+        android:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/men_tentang"
+        android:orderInCategory="100"
+        android:title="Tentang"
+        android:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/men_keluar"
+        android:orderInCategory="100"
+        android:title="Keluar"
+        android:showAsAction="never"/>    
+    
+</menu>

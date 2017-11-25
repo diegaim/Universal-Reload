@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Universal Reload</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_bantuan">Bantuan</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sqlite_helper">SQLiteHelper</string>
+    <string name="title_activity_tentang">Tentang</string>
+    <string name="title_activity_pengaturan">Pengaturan</string>
+    <string name="title_activity_transaksi_baru">Transaksi baru</string>
+    <string name="title_activity_catatan_transaksi">Catatan transaksi</string>
+    <string name="title_activity_transaksi_sudah_terkonfirmasi">Transaksi sudah terkonfirmasi</string>
+    <string name="title_activity_transaksi_belum_terkonfirmasi">Transaksi belum terkonfirmasi</string>
+    <string name="title_activity_proses_transaksi">Informasi transaksi</string>
+    <string name="title_activity_splash_screen">Universal Reload</string>
+    <string name="title_activity_cari_transaksi">Cari transaksi</string>
+    <string name="title_activity_pengaturan_awal_aplikasi">Pengaturan awal aplikasi</string>
+    <string name="title_activity_pengaturan_awal_aplikasi_2">Pengaturan awal aplikasi</string>
+    <string name="title_activity_pengaturan_awal_aplikasi_3">Pengaturan awal aplikasi</string>
+
+</resources>

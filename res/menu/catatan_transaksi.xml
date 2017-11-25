@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.diegaim.universalreloadapp.Catatan_transaksi" >
+
+    <item
+        android:id="@+id/men_menu_utama"
+        android:orderInCategory="100"
+        android:title="Menu Utama"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/men_transaksi_baru"
+        android:orderInCategory="100"
+        android:title="Transaksi Baru"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/men_pengaturan"
+        android:orderInCategory="100"
+        android:title="Pengaturan"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/men_bantuan"
+        android:orderInCategory="100"
+        android:title="Bantuan"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/men_tentang"
+        android:orderInCategory="100"
+        android:title="Tentang"
+        app:showAsAction="never"/>
+    
+    <item
+        android:id="@+id/men_keluar"
+        android:orderInCategory="100"
+        android:title="Keluar"
+        app:showAsAction="never"/>
+
+</menu>

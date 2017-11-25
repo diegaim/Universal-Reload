@@ -1,0 +1,96 @@
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:focusableInTouchMode="true"
+        android:background="#FFFFFF" >
+        
+        <EditText
+	        android:id="@+id/editText1"
+	        android:layout_width="266dp"
+	        android:layout_height="wrap_content"
+	        android:layout_toLeftOf="@+id/button2"
+	        android:layout_marginTop="10dp"
+	        android:layout_marginLeft="14dp"
+	        android:hint="Nomor Telepon Pembeli"
+	        android:inputType="number"
+	        android:ems="10" />
+        
+        <Button
+	        android:id="@+id/button2"
+	        android:layout_width="65dp"
+	        android:layout_height="35dp"
+	        android:layout_alignBaseline="@+id/editText2"
+	        android:layout_alignBottom="@+id/editText2"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginTop="10dp"
+	        android:layout_marginRight="18dp"
+	        android:background="#0146fe"
+	        android:textColor="#FFFFFF"
+	        android:text="Cari" />
+        
+        <android.widget.HorizontalScrollView
+        android:id="@+id/horizontalScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="5dp" >
+
+	        <android.widget.ScrollView
+	            android:id="@+id/verticalScrollView"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center" >
+	
+	            <android.widget.TableLayout
+	                android:id="@+id/table_data"
+	                android:layout_gravity="center_horizontal"
+	                android:gravity="center_horizontal"
+	                android:layout_centerHorizontal="true"
+	                android:layout_width="326dp"
+	                android:layout_height="wrap_content" />
+	            
+	        </android.widget.ScrollView>
+	        
+	    </android.widget.HorizontalScrollView>
+	
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="270dp"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/horizontalScrollView"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="1dp"
+	        android:background="#0146fe"
+	        android:textColor="#FFFFFF"
+	        android:text="Muat lebih banyak" />
+	    
+	    <TextView
+	        android:id="@+id/textView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_centerVertical="true"
+	        android:text="Catatan Kosong"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+	    <TextView
+	        android:id="@+id/textView2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@+id/button1"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginTop="12dp" />
+        
+    </RelativeLayout>
+    
+</ScrollView>

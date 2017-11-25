@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.diegaim.universalreloadapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_MMS" />
+    <uses-permission android:name="android.permission.WRITE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Menu_utama"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Bantuan"
+            android:label="@string/title_activity_bantuan" >
+        </activity>
+        <activity
+            android:name=".SQLiteHelper"
+            android:label="@string/title_activity_sqlite_helper" >
+        </activity>
+        <activity
+            android:name=".Tentang"
+            android:label="@string/title_activity_tentang" >
+        </activity>
+        <activity
+            android:name=".Pengaturan"
+            android:label="@string/title_activity_pengaturan" >
+        </activity>
+        <activity
+            android:name=".Transaksi_baru"
+            android:label="@string/title_activity_transaksi_baru" >
+        </activity>
+        <activity
+            android:name=".Catatan_transaksi"
+            android:label="@string/title_activity_catatan_transaksi" >
+        </activity>
+        <activity
+            android:name=".Transaksi_sudah_terkonfirmasi"
+            android:label="@string/title_activity_transaksi_sudah_terkonfirmasi" >
+        </activity>
+        <activity
+            android:name=".Transaksi_belum_terkonfirmasi"
+            android:label="@string/title_activity_transaksi_belum_terkonfirmasi" >
+        </activity>
+        <activity
+            android:name=".Proses_transaksi"
+            android:label="@string/title_activity_proses_transaksi" >
+        </activity>
+        <activity
+            android:name=".Splash_screen"
+            android:label="@string/title_activity_splash_screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Cari_transaksi"
+            android:label="@string/title_activity_cari_transaksi" >
+        </activity>
+        <activity
+            android:name=".Pengaturan_awal_aplikasi"
+            android:label="@string/title_activity_pengaturan_awal_aplikasi" >
+        </activity>
+        <activity
+            android:name=".Pengaturan_awal_aplikasi_2"
+            android:label="@string/title_activity_pengaturan_awal_aplikasi_2" >
+        </activity>
+        <activity
+            android:name=".Pengaturan_awal_aplikasi_3"
+            android:label="@string/title_activity_pengaturan_awal_aplikasi_3" >
+        </activity>
+    </application>
+
+</manifest>
